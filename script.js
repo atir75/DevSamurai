@@ -3,7 +3,7 @@
 //como um alertaa.
 
 var x = prompt("Digite o primeiro número");
-
-var y = prompt("Digite o segundo número");
+var a = prompt("Digite o segundo numero: ")
+var y = prompt("Digite o terceiro número");
 var resultado = Number(x) + Number(y);
 alert("O resultado da soma é: " + resultado);
