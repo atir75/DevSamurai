@@ -10,16 +10,6 @@
  alert("O resultado da soma é: " + resultado);
 
 
-// var idade = 20;
-// var genero = "F";
-
-// if ((idade <= 18) && (genero == "F")){
-//     console.log("Opa");
-// }else {
-//     console.log("ai sim")
-// }
-
-
 
 // desafio 2 
 // No nosso desafio da calculadora, criar um IF para verificar se o valor é maior que 10, caso seja, informar
@@ -33,3 +23,13 @@ if (resultado > 10) {
     alert("o resultado é maior que 10!")
  }
  alert("O resultado da soma é: " + resultado);
+
+
+ // var idade = 20;
+// var genero = "F";
+
+// if ((idade <= 18) && (genero == "F")){
+//     console.log("Opa");
+// }else {
+//     console.log("ai sim")
+// }
