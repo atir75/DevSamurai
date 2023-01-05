@@ -8,7 +8,7 @@
  var resultado = Number(x) + Number(y);
 
  alert("O resultado da soma é: " + resultado);
-
+//
 
 
 // desafio 2 
