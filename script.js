@@ -50,3 +50,26 @@
 //     return result = n1 + n2
 // }
 // console.log(sum(1,1))
+
+
+//AULA OBJ ARGUMENTS
+// function sum(){
+
+//     let res = 0 // res = n no for
+//     //arguments
+//     for (const n of arguments) { const n (res) dos arguments
+//         res += n //vai pegar o valor da posicao n no array e adicionar somando na var res
+//     }
+//     return res
+// }
+// console.log(sum(1,1, 2, 4, 5, 7, 4 ,3, 5)) 
+
+
+// function sum(n1, n2){
+//     //arguments
+//     for (const n of arguments) {
+//         console.log(n) //retorna todos os valores que tem nos arguments
+//     }
+//     return n1 + n2
+// }
+// console.log(sum(1,1, 2, 4, 5, 7, 4 ,3, 5)) 
