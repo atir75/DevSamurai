@@ -80,21 +80,21 @@
 
 
 //AULA FUNÇÕES - VALOR VS REFERENCIA 
-function mult(n) {
-    n *= n 
-    return n
-}
+// function mult(n) {
+//     n *= n 
+//     return n
+// }
 
-let n = 10 //esse N é diferente do q está na função, se eu chamar apenas ele console.log(n) vai ser igual a 10 pois, o que está no escopo nao vaza
-console.log(mult(n)) //aqui será igual a 100
+// let n = 10 //esse N é diferente do q está na função, se eu chamar apenas ele console.log(n) vai ser igual a 10 pois, o que está no escopo nao vaza
+// console.log(mult(n)) //aqui será igual a 100
 
-//////
+// //////
 
-function multObj(obj) { //referencia, reflete no objeto passado como parametro  
-    obj.value *= obj.value
-    return obj
-}
+// function multObj(obj) { //referencia, reflete no objeto passado como parametro  
+//     obj.value *= obj.value
+//     return obj
+// }
 
-const numObj = {value: 10}
-console.log(multObj(numObj))
-console.log(numObj) //tratando como objeto, o valor ira alterar dentro e fora do escopo, alterando em todas as variaveis ligadas
+// const numObj = {value: 10}
+// console.log(multObj(numObj))
+//console.log(numObj) //tratando como objeto, o valor ira alterar dentro e fora do escopo, alterando em todas as variaveis ligadas
