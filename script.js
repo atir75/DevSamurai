@@ -101,6 +101,6 @@
 
 
 
-//AULA FUNÇÕES - ARROW FUNCTIONS
- const mult = (n) => (n *= n)
- let n = 10
+// //AULA FUNÇÕES - ARROW FUNCTIONS
+//  const mult = (n) => (n *= n)
+//  let n = 10
