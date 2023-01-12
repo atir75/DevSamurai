@@ -53,17 +53,16 @@
 
 
 //AULA OBJ ARGUMENTS
-// function sum(){
+//  function sum(){
 
-//     let res = 0 // res = n no for
-//     //arguments
-//     for (const n of arguments) { const n (res) dos arguments
-//         res += n //vai pegar o valor da posicao n no array e adicionar somando na var res
-//     }
-//     return res
-// }
-// console.log(sum(1,1, 2, 4, 5, 7, 4 ,3, 5)) 
-
+//      let res = 0 // res = n no for
+//      //arguments
+//      for (const n of arguments) { //const n (res) dos arguments
+//          res += n //vai pegar o valor da posicao n no array e adicionar somando na var res
+//      }
+//      return res
+//  }
+//  console.log(sum(1, 1, 2, 4, 5, 7, 4 ,3, 5)) 
 
 // function sum(n1, n2){
 //     //arguments
@@ -98,3 +97,10 @@
 // const numObj = {value: 10}
 // console.log(multObj(numObj))
 //console.log(numObj) //tratando como objeto, o valor ira alterar dentro e fora do escopo, alterando em todas as variaveis ligadas
+
+
+
+
+//AULA FUNÇÕES - ARROW FUNCTIONS
+ const mult = (n) => (n *= n)
+ let n = 10
