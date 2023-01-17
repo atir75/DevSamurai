@@ -104,3 +104,31 @@
 // //AULA FUNÇÕES - ARROW FUNCTIONS
 //  const mult = (n) => (n *= n)
 //  let n = 10
+
+
+
+
+//AULA FUNCOES - CALLBACKS
+// function mult(values){
+//     for (let i = 0; i < values.lenght; i++){
+//         values[i] *= values[i]
+//     }
+//     return values
+// }
+
+// const values = [1, 2, 3, 4, 10]
+
+//ou com func
+
+function mult(values){
+    for (let i = 0; i < values.lenght; i++){
+        //values[i] *= values[i]
+        values[i] = func(values[i]) //multiplica o numero pela quantidade de vezes colocada no codigo, com a func fica mais flexivel isso //chamo essa função
+    }
+    return values
+}
+ 
+const values = [1, 2, 3, 4, 10]
+const func = (n) => n * n //dou um call nessa função e volta (back) pra funcao values[i]
+
+console.log(mult(values, func))
