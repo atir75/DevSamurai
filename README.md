@@ -13,3 +13,5 @@ dia 11/1 - Ainda no topico de funções, agora no Valor vs Referencia, aprendi a
 dia 12/1 - Na penultima aula de funções, sobre arrow function, pude observar novamente que posso atribuir uma função para uma const, e, que basicamente a arrow function substitui a palavra function, mas só pode ser usada em constantes
 
 dia 17/1 - aula sobre callbacks, bem simples.
+
+dia 18/1 - type casting/ coersion, quando usar cada um 

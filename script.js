@@ -120,15 +120,22 @@
 
 //ou com func
 
-function mult(values){
-    for (let i = 0; i < values.lenght; i++){
-        //values[i] *= values[i]
-        values[i] = func(values[i]) //multiplica o numero pela quantidade de vezes colocada no codigo, com a func fica mais flexivel isso //chamo essa função
-    }
-    return values
-}
+// function mult(values){
+//     for (let i = 0; i < values.lenght; i++){
+//         //values[i] *= values[i]
+//         values[i] = func(values[i]) //multiplica o numero pela quantidade de vezes colocada no codigo, com a func fica mais flexivel isso //chamo essa função
+//     }
+//     return values
+// }
  
-const values = [1, 2, 3, 4, 10]
-const func = (n) => n * n //dou um call nessa função e volta (back) pra funcao values[i]
+// const values = [1, 2, 3, 4, 10]
+// const func = (n) => n * n //dou um call nessa função e volta (back) pra funcao values[i]
 
-console.log(mult(values, func))
+// console.log(mult(values, func))
+
+
+
+
+// console.log("2" + 2) //type coersion = conversao coercitiva pela vm - ele forçou transformar o segundo dois em string 
+
+// console.log(Number("2") + 2)// type casting = conversao pelo usuario, usado normalmente p transformar no que voce gostaria q fosse a variavel
