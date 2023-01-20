@@ -139,3 +139,14 @@
 // console.log("2" + 2) //type coersion = conversao coercitiva pela vm - ele forçou transformar o segundo dois em string 
 
 // console.log(Number("2") + 2)// type casting = conversao pelo usuario, usado normalmente p transformar no que voce gostaria q fosse a variavel
+
+
+
+//number <-> string
+//como converter um number em string ou string em number?
+console.log("2") //string
+console.log(Number("2")) //passou para number
+console.log(2) //num
+console.log(String (2)) //passou para string 
+
+console.log(Number("a")) //Nan -nao tem como converter 
