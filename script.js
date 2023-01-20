@@ -144,9 +144,23 @@
 
 //number <-> string
 //como converter um number em string ou string em number?
-console.log("2") //string
-console.log(Number("2")) //passou para number
-console.log(2) //num
-console.log(String (2)) //passou para string 
+// console.log("2") //string
+// console.log(Number("2")) //passou para number
+// console.log(2) //num
+// console.log(String (2)) //passou para string 
 
-console.log(Number("a")) //Nan -nao tem como converter 
+// console.log(Number("a")) //Nan -nao tem como converter 
+
+
+
+
+//number e string <-> boolean
+console.log(Boolean("")) //retorna false
+console.log(Boolean("abc")) //true
+console.log(Boolean(0)) //false
+console.log(Boolean(1)) //true
+
+console.log(Number(true)) //1
+console.log(Number(false)) //0
+
+console.log()

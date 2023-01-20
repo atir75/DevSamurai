@@ -16,4 +16,5 @@ dia 17/1 - aula sobre callbacks, bem simples.
 
 dia 18/1 - type casting/ coersion, quando usar cada um 
 
-dia 20/1 - number <-> string
+dia 20/1 - number <-> string, number/string <-> boolean
+
